@@ -9,6 +9,7 @@ illustration only; real Fusion extracts (BICC / OTBI / BI Publisher) will differ
 - `p2p_event_log.csv`: the event log built from them (case = PO line). Upload this one.
 - `generate_oracle_extracts.py`: regenerates the source tables (seeded, same output every run).
 - `build_event_log.py`: turns the source tables into the event log, validates it, prints the answer key.
+- `p2p-process-mining-poc–demo-findings.pptx`: provides a findings and recommendations summary from the process mining demo and the underlying data.
 
 Regenerate: `python generate_oracle_extracts.py && python build_event_log.py`
 
